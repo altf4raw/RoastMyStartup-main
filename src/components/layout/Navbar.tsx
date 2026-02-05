@@ -44,8 +44,8 @@ export function Navbar() {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Link to="/auth/login">
-              <RetroUIButton size="sm">
+            <Link to="/roast">
+              <RetroUIButton size="sm" className="text-sm lg:text-base">
                 ROAST ME 🔥
               </RetroUIButton>
             </Link>
